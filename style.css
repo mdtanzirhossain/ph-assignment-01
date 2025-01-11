@@ -295,14 +295,14 @@ body{
 }
 .blog p{
     color: rgba(14, 14, 14, 0.7);
-    font-family: Fira Sans;
+    font-family: "Fira Sans", serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
 }
 .blog h3{
     color: rgba(14, 14, 14, 0.8);
-    font-family: Fira Sans;
+    font-family: "Fira Sans", serif;
     font-size: 32px;
     font-weight: 700;
     line-height: 38px;
@@ -336,12 +336,94 @@ body{
     border-radius: 8px;
     background: rgb(0, 106, 80);
     color: rgb(255, 255, 255);
-    font-family: Fira Sans;
+    font-family: "Fira Sans", serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 22px;
-    
-
 }
 
 /* blog section ends */
+
+/* donation section starts */
+.donate h1{
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+.donate-paragraph{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top:24px;
+    margin-bottom:32px;
+}
+.amount {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    padding:40px;
+}
+
+.green{
+    background: rgb(198, 228, 214);
+}
+
+.amount p{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.donation-amount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-bottom: 32px;
+}
+.other-amount input[type="text"]{
+    width: 952px;
+    height: 24px;
+    background: rgb(255, 255, 255);
+    padding: 20px 40px 20px 40px;
+    border: none;
+    
+}
+.donate input::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    border: none;
+    
+}
+
+
+.donate-button{
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 8px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 17px 34px 17px 34px;
+    
+}
+.donation{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:32px;
+}
+/* donation section ends */
