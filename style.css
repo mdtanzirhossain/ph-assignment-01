@@ -1,6 +1,11 @@
 *{
     margin:0;
     font-family:"Fira Sans", serif;
+    
+}
+
+body{
+    background: rgb(245, 245, 245);
 }
 .container{
     width: 1280px;
@@ -217,4 +222,40 @@
     background: rgb(255, 194, 57);
     margin-top: 24px;
 }
+/* quote section starts */
+.quote{
+    height: 160 px;
+    padding: 48px 24px 48px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    position: relative;
+}
+.quote img {
+    position: absolute;
+    left: 0px;
+    top: 4.57px;
+    padding-left: 24px;
+    padding-top: 20px;
+}
+.leader-name{
+    color: rgba(14, 14, 14, 0.8);
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 12px;
+}
 
+.leader-designation{
+    color: rgba(14, 14, 14, 0.6);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+/* quote section starts */
