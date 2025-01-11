@@ -344,6 +344,13 @@ th,td{
     background: rgb(198, 228, 214);
     padding: 10px 14px 10px 14px;
     margin: 0 auto;
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    
+    text-align: left;
 }
 /* opinion section ends */
 
@@ -356,6 +363,7 @@ th,td{
     font-family: Fira Sans;
     font-size: 40px;
     font-weight: 700;
+    margin-top: 80px;
     
 }
 
@@ -489,6 +497,7 @@ th,td{
     background: rgb(255, 255, 255);
     padding: 20px 40px 20px 40px;
     border: none;
+    outline: none;
     
 }
 .donate input::placeholder {
@@ -592,7 +601,7 @@ th,td{
     border-radius: 8px 0px 0px 8px;
     background: rgb(255, 255, 255);
     border: none;
-    
+    outline: none;
 }
 
 .subscription{
