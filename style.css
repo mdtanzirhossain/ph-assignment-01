@@ -259,6 +259,59 @@ body{
     margin-bottom: 4px;
 }
 /* quote section ends */
+/* opinion section starts */
+.opinion-title{
+    margin-bottom: 24px;
+    margin-top:80px;
+    Font-weight:700;
+    Font-size:40px;
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+table{
+   width: 100%; 
+   height: 409px;
+   border-radius: 16px;
+   background: rgb(255, 255, 255);
+   padding: 32px;
+   border-collapse: collapse;
+}
+
+.left-head{
+    width: 80%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    text-align: left;
+}
+
+.right-head{
+    width: 20%;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgb(198, 228, 214);
+    height: 44px;
+    
+}
+th,td{
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.opinion{
+    width: 124px;
+    height: 24px;
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
+    background: rgb(198, 228, 214);
+    padding: 10px 14px 10px 14px;
+    margin: 0 auto;
+}
+/* opinion section ends */
+
 /* blog section starts */
 .news{
     margin-bottom: 80px;
@@ -345,6 +398,9 @@ body{
 /* blog section ends */
 
 /* donation section starts */
+.donate{
+    margin-bottom: 80px;
+}
 .donate h1{
     color: rgb(14, 14, 14);
     font-family: "Fira Sans", serif;
@@ -362,15 +418,14 @@ body{
     margin-top:24px;
     margin-bottom:32px;
 }
-.amount {
-    box-sizing: border-box;
+.amount{
+    
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
     padding:40px;
 }
-
-.green{
+.amount:hover{
     background: rgb(198, 228, 214);
 }
 
@@ -427,3 +482,105 @@ body{
     gap:32px;
 }
 /* donation section ends */
+/* subscribe section starts */
+.subscribe{
+    height: 395px;
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    text-align: center;
+    margin:80px 0;
+    
+}
+
+.subscribe h1 {
+    padding-top: 80px;
+    padding-bottom: 16px;
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    
+}
+.subscribe-paragraph{
+    color: rgba(14, 14, 14, 0.7);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 24px;
+    width: 622px;
+    margin: 0 auto;
+    
+    
+}
+
+
+.subscribe-btn{
+    width: 150px;
+    height: 56px;
+    border: 1px solid rgba(14, 14, 14, 0.1);
+    border-radius: 0px 8px 8px 0px;
+    background: rgb(0, 106, 80);
+    color: rgb(255, 255, 255);
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    padding: 17px 34px 17px 34px;
+    
+}
+.subscribe input[type="email"]{
+    width: 600px;
+    height: 56px;
+    color: rgba(14, 14, 14, 0.3);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    border-radius: 8px 0px 0px 8px;
+    background: rgb(255, 255, 255);
+    border: none;
+    
+}
+
+.subscription{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+.subscription input::placeholder {
+    color: rgba(14, 14, 14, 0.3);
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 18px 40px;
+}
+/* subscribe section ends */
+
+footer{
+    text-align: center;
+}
+
+footer h2{
+    color: rgb(14, 14, 14);
+    font-family: "Fira Sans", serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 32px;
+}
+hr{
+    width: 1122px;
+    margin:auto;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:23px;
+    margin-top: 32px;
+}
