@@ -12,13 +12,11 @@ body{
     margin: 0 auto;
 
 }
-/* header starts */
+/* header section starts */
 .topdiv{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* margin-top: 24px;
-    margin-bottom: 20px; */
     padding:24px 0;
 }
 .logo{
@@ -43,9 +41,9 @@ body{
     font-family:"Fira Sans", serif;
 }
 
-/* header ends */
+/* header section ends */
 
-/* banner starts */
+/* banner section starts */
 .banner{
     display: flex;
     justify-content: center;
@@ -91,9 +89,14 @@ body{
     line-height: 22px;
     border: 0;
 }
-/* banner ends */
 
-/* pillar starts */
+.primary-btn:hover{
+    background:rgb(247, 235, 207);
+    color: #006A50;
+}
+/* banner section ends */
+
+/* pillar section starts */
 
 .pillars{
     margin-bottom: 80px;
@@ -133,11 +136,12 @@ body{
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align: left;
-    
+    text-align: left;   
 }
+/* pillar section ends */
 
 /* vision section starts */
+
 .visions{
     margin-bottom: 80px;
 }
@@ -173,7 +177,19 @@ body{
     height: 325px;
     padding: 32px;
     border-radius: 16px;
+    
+}
+
+.box-1{
     background: rgba(84, 144, 245, 0.2);
+}
+
+.box-2{
+    background: rgb(198, 228, 214);
+}
+
+.box-3{
+    background: rgb(247, 235, 207);
 }
 
 .learn-btn-1{
@@ -191,6 +207,11 @@ body{
     padding: 11px 20px 11px 20px;
     margin-top: 24px;
 }
+.learn-btn-1:hover{
+    background:rgb(247, 235, 207);
+    color: #006A50;
+}
+
 
 .learn-btn-2{
     width: 124px;
@@ -207,6 +228,11 @@ body{
     background: rgb(9, 161, 92);
     margin-top: 24px;
 }
+
+.learn-btn-2:hover{
+    background:rgb(247, 235, 207);
+    color: #006A50;
+}
 .learn-btn-3{
     width: 124px;
     height: 41px;
@@ -222,6 +248,13 @@ body{
     background: rgb(255, 194, 57);
     margin-top: 24px;
 }
+
+.learn-btn-3:hover{
+    background:rgb(247, 235, 207);
+    color: #006A50;
+}
+/* vision section ends */
+
 /* quote section starts */
 .quote{
     height: 160 px;
@@ -258,7 +291,9 @@ body{
     font-weight: 400;
     margin-bottom: 4px;
 }
+
 /* quote section ends */
+
 /* opinion section starts */
 .opinion-title{
     margin-bottom: 24px;
@@ -395,6 +430,11 @@ th,td{
     line-height: 22px;
 }
 
+.blog-btn:hover{
+    background:rgb(247, 235, 207);
+    color: #006A50;
+}
+
 /* blog section ends */
 
 /* donation section starts */
@@ -474,6 +514,11 @@ th,td{
     padding: 17px 34px 17px 34px;
     
 }
+
+.donate-button:hover{
+    background:rgb(247, 235, 207);
+    color: #006A50;
+}
 .donation{
     display: flex;
     flex-direction: column;
@@ -482,6 +527,7 @@ th,td{
     gap:32px;
 }
 /* donation section ends */
+
 /* subscribe section starts */
 .subscribe{
     height: 395px;
@@ -530,6 +576,11 @@ th,td{
     padding: 17px 34px 17px 34px;
     
 }
+
+.subscribe-btn:hover{
+    background:rgb(247, 235, 207);
+    color: #006A50;
+}
 .subscribe input[type="email"]{
     width: 600px;
     height: 56px;
@@ -560,6 +611,7 @@ th,td{
     padding: 18px 40px;
 }
 /* subscribe section ends */
+/* footer section starts */
 
 footer{
     text-align: center;
@@ -575,7 +627,7 @@ footer h2{
 }
 hr{
     width: 1122px;
-    margin:auto;
+    margin: auto;
 }
 .icons{
     display: flex;
@@ -584,3 +636,5 @@ hr{
     gap:23px;
     margin-top: 32px;
 }
+
+/* footer section ends */
